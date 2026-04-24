@@ -1,0 +1,13 @@
+Shortest Job First (SJF) is a CPU scheduling algorithm where the process with the smallest burst time executes first.
+It is usually non-preemptive in basic OS practical programs.
+
+Steps of SJF
+Enter number of processes.
+Enter burst time for each process.
+Sort processes based on burst time (ascending).
+Calculate Waiting Time (WT).
+Calculate Turnaround Time (TAT).
+
+Formulas:
+Waiting Time (WT) = Sum of burst times of previous processes
+Turnaround Time (TAT) = Burst Time + Waiting Time
