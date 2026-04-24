@@ -1,0 +1,5 @@
+Description for process management commands on Linux:
+1) whoami  &: a built-in utility that displays the username of the current user.
+2) top :(table of processes) command shows a dynamic, real-time view of running processes and kernel-managed tasks in Linux.
+3) ps -A:displays the processes that are currently running, also used to list all the processes.
+4) kill : To stop the process.
