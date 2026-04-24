@@ -1,0 +1,22 @@
+Banker’s Algorithm is a resource allocation and deadlock avoidance algorithm used in operating systems. It ensures that the system never enters an unsafe state by carefully analyzing resource allocation before granting requests.
+The algorithm simulates resource allocation for each process and checks whether all processes can complete their execution safely without causing a deadlock.
+Theory:
+The algorithm uses the following data structures:
+Allocation Matrix: Resources currently allocated to each process
+Max Matrix: Maximum demand of each process
+Need Matrix: Remaining resources required (Max - Allocation)
+Available Vector: Resources currently available in the system
+Finish Array: Tracks whether a process has completed execution
+Work Vector: Temporary copy of available resources
+A system is considered safe if there exists a sequence of processes such that all processes can execute completely without causing deadlock.
+Algorithm Steps:
+Input number of processes and resources
+Input Allocation matrix
+Input Max matrix
+Input Available resources
+Compute Need matrix
+Initialize Work = Available and Finish = false
+Find a process whose Need ≤ Work
+Allocate resources temporarily and mark process as finished
+Repeat until all processes are finished or no safe sequence exists
+If all processes finish → system is safe
