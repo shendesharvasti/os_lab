@@ -1,0 +1,16 @@
+First-Come, First-Served (FCFS) is one of the simplest CPU scheduling algorithms used in operating systems. In this method, the process that arrives first in the ready queue is allocated the CPU first. It follows the FIFO (First-In, First-Out) principle.
+In this experiment, a C program is developed to:
+Accept the number of processes.
+Take arrival time and burst time as input.
+Calculate:
+Waiting Time (WT)
+Turnaround Time (TAT)
+Average Waiting Time
+Average Turnaround Time
+Display the Gantt Chart representing the execution order of processes.
+The Waiting Time is calculated as the difference between the start time and arrival time of a process.
+The Turnaround Time is calculated as:
+Turnaround Time=Waiting Time+Burst Time
+Turnaround Time=Waiting Time+Burst Time
+The Gantt chart visually represents the execution sequence of processes along with their completion times.
+Thus, this experiment helps in understanding how the FCFS scheduling algorithm works and how different performance parameters are calculated
