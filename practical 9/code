@@ -1,0 +1,9 @@
+Page replacement algorithms are used in operating systems to manage memory when a page fault occurs. When a required page is not available in main memory, the system replaces an existing page based on a specific strategy.
+This program simulates how pages are loaded into frames and how page faults occur based on different algorithms.
+Working:
+User enters number of frames.
+User enters reference string (page sequence).
+Pages are loaded into frames one by one.
+If a page is not found in memory → page fault occurs.
+If frames are full → replacement is done based on algorithm.
+Total page faults are displayed at the end.
