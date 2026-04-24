@@ -1,0 +1,16 @@
+In Priority Scheduling, each process is assigned a priority number. The CPU is allocated to the process with the highest priority.
+Usually smaller number = higher priority (depends on implementation).
+
+There are two types:
+Non-Preemptive Priority Scheduling
+Preemptive Priority Scheduling
+
+1. Priority Scheduling (Non-Preemptive)
+In this method:
+Once a process starts execution, it runs until completion.
+Even if a higher-priority process arrives, the running process is not interrupted.
+
+2. Priority Scheduling (Preemptive)
+In this method:
+If a new process arrives with higher priority, the currently running process is interrupted.
+The CPU is given to the higher priority process.
