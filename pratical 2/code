@@ -1,0 +1,4 @@
+1) gcc --version = To check the gcc version executable in your path.
+2) nano <filename.txt> = Opens filename.txt for editing. If the file does not exist nano will create a new one when you save.
+3) gcc <filename.txt> -o <filename_program> = The gcc command to compile your source file into an executable file. The -o flag is used to specify the name of the output file.
+4) ./<filename_program> = Executes the compiled program in the cuirrent directory.
