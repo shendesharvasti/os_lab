@@ -1,0 +1,4 @@
+fork() is a system call used to create a new process.
+The new process created is called the child process, and the process that creates it is called the parent process.
+
+Both parent and child processes run simultaneously after fork().
